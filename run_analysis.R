@@ -66,8 +66,8 @@ names(extractData) <- gsub("^f","FrequencyDomain-",names(extractData))
 names(extractData) <- gsub("BodyBody","Body",names(extractData))
 
 ## Melt data by Ids = Activity and Subject
-## Dcast the melted data by Activity + Subject to compute mean for all variables 
+## Dcast the melted data by Activity + Subject to compute mean for all variables . 
+## Write ouput as text file using row.name = FALSE as parameter
 meltData <- melt(extractData, id = c(1:2), measure.vars = c(3:88))
 tidyData <- dcast(meltData, Activity_Name + Subject ~ variable, mean)
-
-write.table(tidyData, file = "./tidy_data.txt")
+write.table(tidyData, file = "./tidy_data.txt", row.name = FALSE)
