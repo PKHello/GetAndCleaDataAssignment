@@ -15,7 +15,7 @@ The project requires creation of R script **run_analysis.R**, which performs the
 * Create a second, independent tidy data set with the average of each variable for each activity and each subject
 
 ## Steps to execute this project
-1. Download dataset [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
+1. Download dataset https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Unzip the downloaded file. You will get folder **UCI HAR Dataset**
 3. Keep **run_analysis.R** file the parent folder of the folder **UCI HAR Dataset**. Set it as working directory
 4. Run the R source file **run_analysis.R**. It will create output file **tiny_data.txt** in the working directory
