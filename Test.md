@@ -6,10 +6,12 @@ This is content within 1. second level title
 
 ## 2. This is also second level title
 
-This is content within 2. second level title
+This is content within 2 second level title
 
-##3. This one too is at second level
-###3.1 This is at third level
+## 3. This one too is at second level
+
+### 3.1 This is at third level
+
 This is text within third level title. Blah blah This is text within third level title. Blah blah  This is text within third level title. Blah blah This is text within third level title. Blah blah This is text within third level title. Blah blah  This is text within third level title. Blah blah 
 * This is list 1
 * list item 2
